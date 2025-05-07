@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1735069835 source:c:\users\hp\desktop\sécurité windows\complexité\tp\graphe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"graphemat.h"
+
+1735069827 c:\users\hp\desktop\sécurité windows\complexité\tp\graphe\graphemat.h
+	<stdio.h>
+
+1735067764 source:c:\users\hp\desktop\sécurité windows\complexité\tp\graphe\graphemat.c
+	"graphemat.h"
+

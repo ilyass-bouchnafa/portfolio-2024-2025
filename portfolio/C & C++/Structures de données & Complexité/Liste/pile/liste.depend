@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1733521989 source:c:\users\hp\desktop\tp5\liste\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1732810818 c:\users\hp\desktop\tp5\liste\liste.h
+
+1733521790 source:c:\users\hp\desktop\tp5\liste\personne.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personne.h"
+
+1732808264 c:\users\hp\desktop\tp5\liste\personne.h
+
+1733522087 source:c:\users\hp\desktop\tp5\liste\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1733518635 c:\users\hp\desktop\tp5\liste\pile.h
+	"liste.h"
+	"personne.h"
+
+1733521345 source:c:\users\hp\desktop\tp5\liste\pile.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1733522087 source:c:\users\hp\desktop\pile\liste\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1733518635 c:\users\hp\desktop\pile\liste\pile.h
+	"liste.h"
+	"personne.h"
+
+1732810818 c:\users\hp\desktop\pile\liste\liste.h
+
+1732808264 c:\users\hp\desktop\pile\liste\personne.h
+
+1733521790 source:c:\users\hp\desktop\pile\liste\personne.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personne.h"
+
+1733521345 source:c:\users\hp\desktop\pile\liste\pile.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1733525109 source:c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1732810818 c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\liste.h
+
+1734133020 source:c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1733518635 c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\pile.h
+	"liste.h"
+	"personne.h"
+
+1732808264 c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\personne.h
+
+1733521790 source:c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\personne.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personne.h"
+
+1733521345 source:c:\users\hp\desktop\sécurité windows\complexité\tp\pile\liste\pile.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+

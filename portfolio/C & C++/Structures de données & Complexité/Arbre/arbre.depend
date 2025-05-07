@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1735059245 source:c:\users\hp\desktop\sécurité windows\complexité\tp\arbre\arbre.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arbre.h"
+	"liste.h"
+
+1734020427 c:\users\hp\desktop\sécurité windows\complexité\tp\arbre\arbre.h
+
+1735059530 c:\users\hp\desktop\sécurité windows\complexité\tp\arbre\liste.h
+
+1735064300 source:c:\users\hp\desktop\sécurité windows\complexité\tp\arbre\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1734141304 source:c:\users\hp\desktop\sécurité windows\complexité\tp\arbre\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbre.h"
+

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1733524641 source:c:\users\hp\desktop\personne\listepersonne\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1733524386 c:\users\hp\desktop\personne\listepersonne\liste.h
+	"personne.h"
+
+1733522704 source:c:\users\hp\desktop\personne\listepersonne\personne.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personne.h"
+
+1733522615 c:\users\hp\desktop\personne\listepersonne\personne.h
+
+1733524386 source:c:\users\hp\desktop\personne\listepersonne\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1733524641 source:c:\users\hp\desktop\sécurité windows\complexité\tp\personne\listepersonne\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1733524386 c:\users\hp\desktop\sécurité windows\complexité\tp\personne\listepersonne\liste.h
+	"personne.h"
+
+1733522615 c:\users\hp\desktop\sécurité windows\complexité\tp\personne\listepersonne\personne.h
+
+1733524921 source:c:\users\hp\desktop\sécurité windows\complexité\tp\personne\listepersonne\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1734129445 source:c:\users\hp\desktop\sécurité windows\complexité\tp\personne\listepersonne\personne.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personne.h"
+

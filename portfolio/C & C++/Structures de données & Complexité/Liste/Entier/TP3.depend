@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1730308408 source:c:\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+	"liste.c"
+
+1730306361 c:\tp3\liste.h
+
+1730031847 c:\tp3\3la_lah.h
+
+1730307199 c:\tp3\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1730403445 source:c:\users\hp\desktop\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+	"liste.c"
+
+1730306361 c:\users\hp\desktop\tp3\liste.h
+
+1730403811 c:\users\hp\desktop\tp3\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1733525635 source:c:\users\hp\desktop\sécurité windows\complexité\exemplaire cc -liste-\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+	"liste.c"
+
+1730306361 c:\users\hp\desktop\sécurité windows\complexité\exemplaire cc -liste-\tp3\liste.h
+
+1733525205 c:\users\hp\desktop\sécurité windows\complexité\exemplaire cc -liste-\tp3\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+
+1735849553 source:c:\users\hp\desktop\sécurité windows\complexité\tp\entier\main.c
+	<stdio.h>
+	<stdlib.h>
+	"liste.h"
+	"liste.c"
+
+1735849540 c:\users\hp\desktop\sécurité windows\complexité\tp\entier\liste.h
+
+1735851051 c:\users\hp\desktop\sécurité windows\complexité\tp\entier\liste.c
+	<stdio.h>
+	<stdlib.h>
+
