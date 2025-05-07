@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire d'inscription</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <h3>Formulaire d'inscription</h3>
+        
+        <div id="bodyForm">
+            <form>
+                <fieldset>
+                    <legend>Informations Personnelles</legend>
+
+                    <div class="element">
+                        <label for="civilité">Civilité :</label><br />
+                        <div class="choixElement">
+                            <input type="radio" name="civilité" value="Mademoiselle" id="civilité" style="background-color: blue;">Mademoiselle
+                            <input type="radio" name="civilité" value="Madame" id="civilité" checked>Madame
+                            <input type="radio" name="civilité" value="Monsieur" id="civilité">Monsieur
+                        </div>
+                    </div>
+                    
+                    
+
+                    <div class="element">
+                        <label for="nom">Nom :</label><br />
+                        <input type="text" name="nom" id="nom" class="zoneMax">
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="prénom">Prénom :</label><br />
+                        <input type="text" name="prénom" id="prénom" class="zoneMax">
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="date">Date de Naissance :</label><br />
+                        <input type="date" name="date" id="date" class="zoneMax">
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="email">Adresse Mail :</label><br />
+                        <input type="email" name="email" id="email" class="zoneMax">
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="ville">Ville :</label><br />
+                        <select name="ville" size="1" id="ville">
+                            <option value="Rabat">Rabat</option>
+                            <option value="Kenitra" selected>Kenitra</option>
+                            <option value="Tangier">Tangier</option>
+                        </select>
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="codePostal">Code Postal :</label><br />
+                        <textarea type="text" name="codePostal" id="codePostal" rows="2" class="zoneMax"></textarea>
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="photo">Photo :</label><br />
+                        <input type="file" name="photo" id="photo">
+                    </div>
+                    
+
+                    
+
+                    <div class="element">
+                        <label for="langages">Langages :</label><br />
+                        <div class="choixElement">
+                            <input type="checkbox" name="C" value="C" id="langages" checked>C
+                            <input type="checkbox" name="Python" value="Python" id="langages">Python
+                            <input type="checkbox" name="Java" value="Java" id="langages">Java
+                        </div>
+                    </div>
+                    
+                    
+
+                    <div class="element">
+                        <label for="sysExploitation">Système d'exploitation :</label><br />
+                        <select name="sysExploitation" size="4" id="sysExploitation">
+                            <option value="Windows 2012 Server">Windows 2012 Server</option>
+                            <option value="Linux CentOS">Linux CentOS</option>
+                            <option value="HP-UX">HP-UX</option>
+                        </select>
+                    </div>
+                    
+                    
+
+                    <div class="element">
+                        <label for="niveauHTML">Niveau en HTML :</label><br />
+                        <input type="range" name="niveauHTML" min="0" max="100" id="niveauHTML" class="zoneMax">
+                    </div>
+                    
+                    
+
+                    <div class="element">
+                        <input type="submit" name="soumettre" value="Soumettre" class="button">
+                        <button name="prévisualiser" class="button">Prévisualiser</button>
+                        <input type="reset" name="effacer" value="Effacer" class="button">
+                    </div>
+                    
+                </fieldset>
+            </form>      
+        </div>
+    </body>
+</html>

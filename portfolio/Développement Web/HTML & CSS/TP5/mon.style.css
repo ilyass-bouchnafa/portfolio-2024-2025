@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url(police/philosopher);
+}
+
+body {
+    background-color: #1a759f;
+    font-family: 'Philosopher', Arial, sans-serif;
+    color: white;
+    width: 900px;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+section h1, footer h1, nav a {
+    font-family: 'Philosopher', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 2em;
+    margin-top: 0px;
+    font-weight: bold; /* ?? */
+}
+
+header {
+    background: url(images/separateur.png) repeat-x bottom;
+    padding-bottom: 4px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;  
+}
+
+nav a:hover {   
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banniere_image {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url(images/ensa.PNG) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white;
+    font-size: 0.8em;
+}
+
+.bouton_rouge {
+    position: absolute;
+    background: url(images/fond_degraderouge.png) repeat-x;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #760001;
+    font-family: 'Philosopher', serif;
+    font-size: 1.2em;
+    padding: 2px 10px;
+    right: 0;
+    margin-right: 4px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    align-items: flex-start;
+    position: relative;
+    font-family: 'Philosopher', serif;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+
+section article {
+    display: inline-block;
+    position: relative;
+    width: 67%;
+    font-size: 0.95em;
+    vertical-align: top;
+}
+
+article img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+section aside {
+    display: inline-block;
+    position: relative;
+    width: 28%;
+    background-color: #6F6A64;
+    margin-left: 12px;
+    border-radius: 8px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 6px rgb(35, 35, 35);
+    vertical-align: top;
+}
+
+#fleche_bulle {
+    position: absolute;
+    right: 270px;
+   
+}
+
+aside img {
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#photo_profil img { 
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+footer {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Philosopher', serif;
+    font-size: 0.7em;
+    justify-content: space-between;
+    background: url(images/ico_top.png) no-repeat center top, url(images/separateur.png) repeat-x top, url(images/ombre.png) repeat-x top;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#centre_interet {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+#mes_photos {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+#mes_photos img {
+    margin-right: 2px;
+    border: 1px solid black;
+}
+
+#mes_photos img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+#mes_competences {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+
+#centre_interet p {
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+

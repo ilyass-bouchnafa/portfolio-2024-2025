@@ -1,0 +1,109 @@
+body {
+    background-color: #4682B4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0;
+    position: relative;
+}
+
+#bodyForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #598FBD;
+    border-radius: 9px;
+    padding: 10px 5px;
+    box-shadow: 11px -5px 24px -10px rgba(0,0,0,0.59); 
+    position: absolute;
+}
+
+fieldset {
+    border-style: none;
+    font-size: small;
+}
+
+label {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+/* les zones de saisie */
+.zoneMax {
+    width: 100%;
+    border-radius: 3px;
+    border-style: none;
+    padding: 3px;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+/* Element (label + input) */
+.element {
+    margin-top: 10px;
+}
+
+/* le text à l'intérieure de la date */
+input[type="date"] {
+    font-size: 9px;
+}
+
+/* la balise select et celle pour la ville */
+select {
+    font-size: 10px;
+}
+#ville {
+    width: 66px;
+    margin-top: 2px;
+}
+
+/* la partie photo */
+#photo {
+    margin-top: 8px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+/* les bouton */
+.button {
+    color: #598FBD;
+    background-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #598FBD;
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: #4682B4;
+}
+
+
+/* les boutons radio + checkbox */
+.choixElement {  
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 10px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

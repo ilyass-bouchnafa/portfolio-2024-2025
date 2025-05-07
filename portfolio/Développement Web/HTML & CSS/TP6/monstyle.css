@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(polices/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src : url(polices/Eczar-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    margin: 40px;
+}
+
+nav a {
+    color: #707070;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:hover {
+    border-radius: 8px;
+    background-color: #a9d4b2;
+}
+
+header {
+    box-shadow: 2px 2px 5px #888888;
+    display: flex;
+    flex-direction: row;   
+}
+
+#logo {
+    width: 100px;
+    padding: 10px;
+}
+
+nav {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.titre {
+    font-size: 90px;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    margin: 0;
+}
+
+.texte {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.cartes {
+    border: 1px solid #5C7DE9;
+    color: #5C7DE9;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 128px 0;
+}
+
+.cartes:hover {
+    box-shadow: 1px -3px 20px rgb(196, 196, 196);
+}
+
+.icones {
+    width: 200px;
+    height: 200px;
+}
+
+.boutton {
+    display: flex;
+    margin: 0 auto;
+    padding: 8px 4px;
+    width: fit-content;
+    background-color: #5C7DE9;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 8px 8px #5c7de968;
+    cursor: pointer;
+}
+
+video {
+    display: flex;
+    margin: 0 auto;
+}
+
+.equipe {
+    text-align: center;
+    font-family: 'Eczar', serif;
+}
+
+#nous-rejoindre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/nous-rejoindre.svg) no-repeat center top 30px, url(images/fusee.svg) no-repeat right top 60px, #393852;
+    color: white;
+    padding: 200px 100px 80px; 
+}
+
+.profil {
+    display: inline-block;
+    margin: 0 95px;  
+}
+
+#formulaire form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulaire input, #formulaire textarea {
+    font-size: 15px;
+    color: #7a7a7a;
+    background-color: rgba(0, 0, 0, 0.03);
+    line-height: 40px;
+    border-style: none;
+    border-radius: 2px;
+    padding: 10px 0px 10px 15px;
+    width: 600px;
+}
+
+footer {
+    background-color: #f1f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20%;
+    padding: 50px 200px;
+    margin-top: 50px;
+}
+
+#footer-left h2, #footer-right h2, #footer-center h2 {
+    font-family: 'Eczar', serif;
+}
+
+
+
+
+
+

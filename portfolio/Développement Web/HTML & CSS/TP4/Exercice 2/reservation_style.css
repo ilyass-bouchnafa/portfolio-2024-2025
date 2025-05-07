@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcc7c7;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid gray;
+    background-color: #fcc7c7;
+    border-radius: 4px;
+}
