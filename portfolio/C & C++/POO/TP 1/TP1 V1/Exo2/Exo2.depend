@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740065859 source:c:\users\hp\desktop\exo2\fichier.cpp
+
+1740679712 source:c:\users\hp\desktop\exo2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
+1740065726 c:\users\hp\desktop\exo2\fichier.cpp
+	<iostream>
+
