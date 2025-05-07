@@ -10,7 +10,7 @@ Bienvenue sur mon portfolio de l’année universitaire 2024. Ce dépôt regroup
 - 💾 **Base de données** : Requêtes SQL, modélisation, MySQL
 - 🧱 **CMS** : WordPress, PrestaShop
 - 🌐 **Réseaux** : Projet Packet Tracer (Cisco), adressage IP, configuration de routeurs
-- 📊 **Projets complets** : Développements PHP/MySQL fullstack, mini-sites web
+- 📊 **Projets complets** : Développements PHP/MySQL fullstack, sites web de l'université
 
 ## 🗂 Arborescence du dépôt
 
