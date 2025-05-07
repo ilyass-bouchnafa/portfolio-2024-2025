@@ -1,0 +1,151 @@
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+
+.stats-section h1 {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.stats-section h1::before,
+.stats-section h1::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background: #03A9F4;
+  margin: 0 15px;
+  vertical-align: middle;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.stat-card {
+  background-color: #36A9E1;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 150px;
+}
+
+.stat-card h2 {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+
+.stat-card p {
+  margin: 10px 0 0;
+  font-weight: bold;
+  color: white;
+}
+
+.courbe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 600px;
+}
+
+.diagramme {
+  width: 200px;
+}
+
+
+.contenu-enseignant {
+  padding: 40px 5%;
+  background-color: #f8f9fa;
+  overflow-x: auto;
+}
+
+.contenu-enseignant h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.table-projets {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.table-projets th, .table-projets td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+}
+
+.table-projets th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table-projets a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.table-projets textarea {
+  width: 100%;
+  height: 60px;
+  resize: none;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-valider {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-refuser {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-valider:hover,
+.btn-refuser:hover {
+  opacity: 0.9;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 200px; /* espace pour ne pas que le footer touche le tableau */
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
