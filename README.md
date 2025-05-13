@@ -6,7 +6,7 @@ Bienvenue sur mon portfolio de l’année universitaire 2024. Ce dépôt regroup
 
 - 🐍 **Python** : Numpy, Pandas, traitement de données
 - 💻 **C / C++ (POO)** : Structures de données, programmation orientée objet
-- 🌐 **Développement Web** : HTML, CSS, PHP, JavaScript
+- 🌐 **Développement Web** : HTML, CSS, PHP
 - 💾 **Base de données** : Requêtes SQL, modélisation, MySQL
 - 🧱 **CMS** : WordPress, PrestaShop
 - 🌐 **Réseaux** : Projet Packet Tracer (Cisco), adressage IP, configuration de routeurs
